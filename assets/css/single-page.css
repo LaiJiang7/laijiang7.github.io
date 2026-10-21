@@ -1,0 +1,135 @@
+/* Native anchors keep section navigation usable without JavaScript. */
+html {
+  scroll-behavior: smooth;
+}
+
+#about,
+.home-section-heading {
+  scroll-margin-top: 6rem;
+}
+
+.page__content .home-section-heading {
+  margin-top: 2.5em;
+  padding-top: 0.35em;
+}
+
+/* Allow the site title to take visitors back to the top of a long homepage. */
+.masthead__menu-item--lg.selected a {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.education-entry {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  align-items: center;
+  gap: 1.25em;
+  padding: 1.25em 0;
+}
+
+.education-entry + .education-entry,
+.experience-entry + .experience-entry {
+  border-top: 1px solid var(--global-border-color);
+}
+
+.education-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 80px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.education-logo--uestc {
+  background: #15538b;
+  border-color: #15538b;
+}
+
+.education-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.education-content {
+  min-width: 0;
+}
+
+.education-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.35em 1em;
+}
+
+.page__content .education-header h3 {
+  flex: 1 1 13em;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.education-header h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.education-header h3 a:hover {
+  text-decoration: underline;
+}
+
+.education-period {
+  flex: 0 0 auto;
+  font-size: 0.78em;
+  opacity: 0.75;
+}
+
+.page__content .education-degree {
+  margin: 0.35em 0 0;
+  font-size: 0.9em;
+}
+
+.page__content .education-detail {
+  margin: 0.25em 0 0;
+  font-size: 0.82em;
+  opacity: 0.8;
+}
+
+.experience-entry {
+  padding: 0.75em 0;
+}
+
+@media (max-width: 600px) {
+  .education-entry {
+    grid-template-columns: 88px minmax(0, 1fr);
+    align-items: start;
+    gap: 0.8em;
+  }
+
+  .education-logo {
+    width: 88px;
+    height: 68px;
+    padding: 6px;
+  }
+
+  .education-header {
+    display: block;
+  }
+
+  .education-period {
+    display: block;
+    margin-top: 0.3em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

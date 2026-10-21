@@ -1,0 +1,21 @@
+# Education entries are shown in this order on the homepage.
+- institution: "University College London"
+  website: "https://www.ucl.ac.uk/"
+  logo: "/images/education/ucl.svg"
+  logo_style: "ucl"
+  degree: "PhD student"
+  period: "2023-2027 (expected)"
+
+- institution: "The University of Manchester"
+  website: "https://www.manchester.ac.uk/"
+  logo: "/images/education/manchester.png"
+  logo_style: "manchester"
+  degree: "M.Sc. in Communications and Signal Processing"
+  period: "2020-2021"
+
+- institution: "University of Electronic Science and Technology of China"
+  website: "https://en.uestc.edu.cn/"
+  logo: "/images/education/uestc.png"
+  logo_style: "uestc"
+  degree: "B.Eng. in Design of Integrated Circuit and Integrated System"
+  period: "2016-2020"

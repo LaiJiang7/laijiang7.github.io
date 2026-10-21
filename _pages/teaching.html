@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% if site.teaching.size == 0 %}
+  <p>Teaching experience will be added here.</p>
+{% endif %}

@@ -1,0 +1,18 @@
+<div class="education-list">
+  {% for education in site.data.education %}
+  <article class="education-entry">
+    <a class="education-logo education-logo--{{ education.logo_style | escape }}" href="{{ education.website | escape }}" aria-label="{{ education.institution | escape }} website">
+      <img src="{{ education.logo | relative_url }}" alt="{{ education.institution | escape }} logo" width="120" height="80" loading="lazy">
+    </a>
+    <div class="education-content">
+      <div class="education-header">
+        <h3><a href="{{ education.website | escape }}">{{ education.institution | escape }}</a></h3>
+        <span class="education-period">{{ education.period | escape }}</span>
+      </div>
+      <p class="education-degree">{{ education.degree | escape }}</p>
+      {% if education.department %}<p class="education-detail">{{ education.department | escape }}</p>{% endif %}
+      {% if education.distinction %}<p class="education-detail">{{ education.distinction | escape }}</p>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>

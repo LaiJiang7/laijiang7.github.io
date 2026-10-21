@@ -1,0 +1,16 @@
+# Homepage sections. The masthead uses same-page anchors on the homepage.
+main:
+  - title: "About"
+    url: /#about
+  - title: "News"
+    url: /#news
+  - title: "Education"
+    url: /#education
+  - title: "Experience"
+    url: /#experience
+  - title: "Publications"
+    url: /#publications
+  - title: "Service"
+    url: /#service
+  - title: "Contact"
+    url: /#contact

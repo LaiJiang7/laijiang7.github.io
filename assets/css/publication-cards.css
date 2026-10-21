@@ -1,0 +1,128 @@
+.publication-list {
+  display: grid;
+  gap: 1.1em;
+  margin: 1.2em 0 0;
+}
+
+.publication-card {
+  min-width: 0;
+  padding: 1.1em 1.25em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px;
+  background: var(--global-bg-color);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+}
+
+.publication-card .publication-title {
+  margin: 0 0 0.6em;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.publication-title a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  color: var(--global-link-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.publication-card .publication-authors {
+  margin: 0 0 0.75em;
+  font-size: 0.85em;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.publication-authors strong {
+  font-weight: 700;
+}
+
+.publication-metadata {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.publication-venue,
+.publication-card .publication-resource {
+  display: inline-block;
+  max-width: 100%;
+  padding: 0.3em 0.6em;
+  border: 1px solid #d6e4ff;
+  border-radius: 4px;
+  font-size: 0.7em;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.publication-venue {
+  color: #214fca;
+  background: #f0f5ff;
+}
+
+.publication-venue--manuscripts {
+  color: #b42318;
+  background: #fff3f1;
+  border-color: #ffddd6;
+}
+
+.publication-card .publication-resource {
+  color: var(--global-text-color);
+  border-color: var(--global-border-color);
+  text-decoration: none;
+}
+
+.publication-card .publication-resource:hover {
+  color: var(--global-link-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.publication-title a:focus-visible,
+.publication-resource:focus-visible {
+  outline: 2px solid #3267ff;
+  outline-offset: 4px;
+}
+
+.page__content #publications {
+  border-bottom: 0;
+}
+
+.page__content #publications::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin-top: 0.4em;
+  border-radius: 2px;
+  background: #3267ff;
+}
+
+[data-theme="dark"] .publication-venue {
+  color: #b4caff;
+  background: #1a2948;
+  border-color: #354c7b;
+}
+
+[data-theme="dark"] .publication-venue--manuscripts {
+  color: #ffb9ae;
+  background: #402722;
+  border-color: #754138;
+}
+
+@media (max-width: 600px) {
+  .publication-card {
+    padding: 1em;
+    border-radius: 10px;
+  }
+}

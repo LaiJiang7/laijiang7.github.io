@@ -1,0 +1,21 @@
+---
+layout: archive
+title: "Selected Publications"
+permalink: /publications/
+author_profile: true
+publication_cards: true
+---
+
+{% if site.publications.size == 0 %}
+  <p>Publications and preprints will be added here.</p>
+{% else %}
+<div class="publication-list">
+  {% assign publications = site.publications | sort: 'date' | reverse %}
+  {% for post in publications %}
+    {% include publication-card.html %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+
