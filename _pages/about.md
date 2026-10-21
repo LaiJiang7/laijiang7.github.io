@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the Department of Electronic and Electrical Engineering at University College London (UCL), supervised by Prof [Christos Masouros](https://scholar.google.com/citations?user=G9HPPKwAAAAJ&hl=en) and co-supervised by Dr [Anna Maria Mandalari](https://scholar.google.com/citations?user=iASd_SsAAAAJ&hl=en). Before that, I received my M.Sc. degree with Distinction in Communications and Signal Processing from the University of Manchester in 2021, and B.Eng. degree in Design of Integrated Circuit and Integrated System from University of Electronic Science and Technology of China (UESTC) in 2020.
+I am a PhD student in the Department of Electronic and Electrical Engineering at University College London (UCL), supervised by Prof [Christos Masouros](https://scholar.google.com/citations?user=G9HPPKwAAAAJ&hl=en) (Fellow, IEEE) and co-supervised by Dr [Anna Maria Mandalari](https://scholar.google.com/citations?user=iASd_SsAAAAJ&hl=en). Before that, I received my M.Sc. degree with Distinction in Communications and Signal Processing from the University of Manchester in 2021, and B.Eng. degree in Design of Integrated Circuit and Integrated System from University of Electronic Science and Technology of China (UESTC) in 2020.
 
 My research focuses on the intersection of  **integrated sensing and communication (ISAC)** and **artificial intelligence (AI)**.
 
