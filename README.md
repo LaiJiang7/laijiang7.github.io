@@ -12,7 +12,8 @@
 - 已根据这些资料填写简短英文介绍；详细简介、论文、照片和其他经历可后续自行补充。
 - 模板示例已移至 `template-examples/`，从网站构建中排除。
 - 自动发布流程支持 `master` 和 `main` 分支。
-- 尚未连接个人 GitHub 仓库，尚未发布此版本。
+- 已连接个人仓库 `LaiJiang7/laijiang7.github.io`，GitHub Pages 使用 GitHub Actions 发布；推送到 `main` 后自动部署。
+- 自动构建使用 Ubuntu 24.04 和 Ruby 3.3，与本地预览的 Ruby 主版本一致。
 - 已完成本地 Jekyll 构建，检查所有导航页面与静态资源，并验证 Markdown 修改后自动重新生成以及 LiveReload 服务。
 
 ## 填写个人资料
